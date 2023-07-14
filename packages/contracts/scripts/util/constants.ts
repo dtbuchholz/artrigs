@@ -47,8 +47,8 @@ export const KNOWN_ENGINE_REGISTRIES = {
     "0x25841600e79E9A5263Ec4badcC328AD9CFE5f8C8":
       "0x3b9038fa89783CBA1933c1689043b4dae2032d1c",
     // [INDEXED] arbitrum goerli staging | deployer: arbitrum staging deployer wallet
-    "0x3b30d421a6dA95694EaaE09971424F15Eb375269":
-      "0xB8559AF91377e5BaB052A4E9a5088cB65a9a4d63",
+    "0x138E3aFeb7dC8944d464326cb2ff2b429cdA808b":
+      "0x4D5286d81317E284Cd377cB98b478552Bbe641ae",
   },
   arbitrum: {
     // [INDEXED] arbitrum mainnet | deployer: arbitrum mainnet deployer wallet

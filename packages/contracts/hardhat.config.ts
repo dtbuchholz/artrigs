@@ -90,7 +90,7 @@ module.exports = {
       goerli: ETHERSCAN_API_KEY,
       arbitrum: ARBISCAN_API_KEY, // This is unused but here in case hardhat changes
       arbitrumOne: ARBISCAN_API_KEY,
-      "arbitrum-goerli": ARBISCAN_API_KEY,
+      arbitrumGoerli: ARBISCAN_API_KEY,
     },
   },
   contractSizer: {

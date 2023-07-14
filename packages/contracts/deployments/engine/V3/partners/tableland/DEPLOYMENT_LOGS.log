@@ -1,0 +1,235 @@
+----------------------------------------
+[INFO] Datetime of deployment: 2023-07-14T00:54:48.079Z
+[INFO] Deployment configuration file: /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/deployment-config.arbitrum-dev.ts
+[INFO] Deploying to network: arbitrum-goerli
+----------------------------------------
+[INFO] Datetime of deployment: 2023-07-14T01:14:56.282Z
+[INFO] Deployment configuration file: /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/deployment-config.arbitrum-dev.ts
+[INFO] Deploying to network: arbitrum-goerli
+----------------------------------------
+[INFO] Datetime of deployment: 2023-07-14T01:21:51.630Z
+[INFO] Deployment configuration file: /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/deployment-config.arbitrum-dev.ts
+[INFO] Deploying to network: arbitrum-goerli
+[INFO] Deploying to environment: arbitrum-dev
+[INFO] New Admin ACL AdminACLV1 deployed at address: 0xa8231bdBeEB2a3e9806354DAf86F7B5a98C8F570
+[INFO] Randomizer BasicRandomizerV2 deployed at 0x38a5E4AeCF92401c0225C87ED45f76785996f074
+[INFO] Core GenArt721CoreV3_Engine_Flex deployed at 0x31D31BF66Ed7526c8B44fAa057d68049C18197a7
+[INFO] Minter Filter MinterFilterV1 deployed at 0x9E8110c282da524312b59CC0Dc30462A1BB574DC
+[INFO] MinterSetPriceV4 deployed at 0xFE0ad887Ea1BF78148c705168108005129Ee0dab
+[INFO] MinterDAExpSettlementV1 deployed at 0x2C18D0638314f9D6B3c36C29eDB9f0A34B72257A
+[INFO] Assigned randomizer to core and renounced ownership of randomizer
+[INFO] Updated the Minter Filter on the Core contract to 0x9E8110c282da524312b59CC0Dc30462A1BB574DC.
+[INFO] Allowlisted minter MinterSetPriceV4 at 0xFE0ad887Ea1BF78148c705168108005129Ee0dab on minter filter.
+[INFO] Allowlisted minter MinterDAExpSettlementV1 at 0x2C18D0638314f9D6B3c36C29eDB9f0A34B72257A on minter filter.
+[INFO] Added ArtRigs project 0 placeholder on ArtRigs contract, artist is 0x4D5286d81317E284Cd377cB98b478552Bbe641ae.
+[INFO] Configured set price minter (0xFE0ad887Ea1BF78148c705168108005129Ee0dab) for project 0.
+[INFO] Configured minter price project 0.
+[INFO] Minted token 0 for project 0.
+[INFO] Skipping transfer of superAdmin role on adminACL.
+[INFO] Verifying core contract contract deployment...
+Nothing to compile
+Successfully submitted source code for contract
+contracts/engine/V3/GenArt721CoreV3_Engine_Flex.sol:GenArt721CoreV3_Engine_Flex at 0x31D31BF66Ed7526c8B44fAa057d68049C18197a7
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract GenArt721CoreV3_Engine_Flex on Etherscan.
+https://goerli.arbiscan.io/address/0x31D31BF66Ed7526c8B44fAa057d68049C18197a7#code
+[INFO] Core contract verified on Etherscan at 0x31D31BF66Ed7526c8B44fAa057d68049C18197a7}
+[INFO] Verifying AdminACL contract deployment...
+Compiled 232 Solidity files successfully
+Successfully submitted source code for contract
+contracts/AdminACLV1.sol:AdminACLV1 at 0xa8231bdBeEB2a3e9806354DAf86F7B5a98C8F570
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract AdminACLV1 on Etherscan.
+https://goerli.arbiscan.io/address/0xa8231bdBeEB2a3e9806354DAf86F7B5a98C8F570#code
+[INFO] AdminACL contract verified on Etherscan at 0xa8231bdBeEB2a3e9806354DAf86F7B5a98C8F570}
+[INFO] Verifying MinterFilter contract deployment...
+The contract 0x9E8110c282da524312b59CC0Dc30462A1BB574DC has already been verified
+[INFO] MinterFilter contract verified on Etherscan at 0x9E8110c282da524312b59CC0Dc30462A1BB574DC}
+[INFO] Verifying MinterSetPriceV4 contract deployment...
+The contract 0xFE0ad887Ea1BF78148c705168108005129Ee0dab has already been verified
+[INFO] MinterSetPriceV4 contract verified on Etherscan at 0xFE0ad887Ea1BF78148c705168108005129Ee0dab}
+[INFO] Verifying MinterDAExpSettlementV1 contract deployment...
+The contract 0x2C18D0638314f9D6B3c36C29eDB9f0A34B72257A has already been verified
+[INFO] MinterDAExpSettlementV1 contract verified on Etherscan at 0x2C18D0638314f9D6B3c36C29eDB9f0A34B72257A}
+Created s3 bucket for https://artrigs-arbitrum-goerli.s3.amazonaws.com
+[INFO] Created image bucket artrigs-arbitrum-goerli
+[INFO] Deployment details written to /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/DEPLOYMENTS.md
+Upserting 1 contract...
+Contracts metadata upsert input:
+{
+  "address": "0x31d31bf66ed7526c8b44faa057d68049c18197a7",
+  "name": "ArtRigs",
+  "bucket_name": "artrigs-arbitrum-goerli",
+  "default_vertical_name": "flex"
+}
+Successfully upserted 1 contract
+Upserting 1 project...
+Projects metadata upsert input:
+{
+  "id": "0x31d31bf66ed7526c8b44faa057d68049c18197a7-0",
+  "contract_address": "0x31d31bf66ed7526c8b44faa057d68049c18197a7",
+  "project_id": "0",
+  "artist_address": "0x4d5286d81317e284cd377cb98b478552bbe641ae",
+  "vertical_name": "flex"
+}
+Error upserting project: [GraphQL] invalid input syntax for type integer: "0x31d31bf66ed7526c8b44faa057d68049c18197a7-0"
+----------------------------------------
+[INFO] Datetime of deployment: 2023-07-14T01:49:02.570Z
+[INFO] Deployment configuration file: /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/deployment-config.arbitrum-dev.ts
+[INFO] Deploying to network: arbitrum-goerli
+[INFO] Deploying to environment: arbitrum-dev
+[INFO] New Admin ACL AdminACLV1 deployed at address: 0x5019661C0436e4F5539470940AD67b5EDB3481E8
+[INFO] Randomizer BasicRandomizerV2 deployed at 0x73DADB9ef95927D46DED3247f45F442286aAa780
+[INFO] Core GenArt721CoreV3_Engine_Flex deployed at 0x2dDc5DE533509776a705F71c21B60ac07B8949E1
+[INFO] Minter Filter MinterFilterV1 deployed at 0x4F575bec47Fdf98728ba24F0AF72b37350897299
+[INFO] MinterSetPriceV4 deployed at 0x63BF0CBf8dCE5AfF557549506C6b344ed4AbD737
+[INFO] MinterDAExpSettlementV1 deployed at 0xeBb19a4550d33E6D2D833641f497062f43921629
+[INFO] Assigned randomizer to core and renounced ownership of randomizer
+[INFO] Updated the Minter Filter on the Core contract to 0x4F575bec47Fdf98728ba24F0AF72b37350897299.
+[INFO] Allowlisted minter MinterSetPriceV4 at 0x63BF0CBf8dCE5AfF557549506C6b344ed4AbD737 on minter filter.
+[INFO] Allowlisted minter MinterDAExpSettlementV1 at 0xeBb19a4550d33E6D2D833641f497062f43921629 on minter filter.
+[INFO] Added ArtRigs project 0 placeholder on ArtRigs contract, artist is 0x4D5286d81317E284Cd377cB98b478552Bbe641ae.
+[INFO] Configured set price minter (0x63BF0CBf8dCE5AfF557549506C6b344ed4AbD737) for project 0.
+[INFO] Configured minter price project 0.
+[INFO] Minted token 0 for project 0.
+[INFO] Skipping transfer of superAdmin role on adminACL.
+[INFO] Verifying core contract contract deployment...
+The contract 0x2dDc5DE533509776a705F71c21B60ac07B8949E1 has already been verified
+[INFO] Core contract verified on Etherscan at 0x2dDc5DE533509776a705F71c21B60ac07B8949E1}
+[INFO] Verifying AdminACL contract deployment...
+The contract 0x5019661C0436e4F5539470940AD67b5EDB3481E8 has already been verified
+[INFO] AdminACL contract verified on Etherscan at 0x5019661C0436e4F5539470940AD67b5EDB3481E8}
+[INFO] Verifying MinterFilter contract deployment...
+The contract 0x4F575bec47Fdf98728ba24F0AF72b37350897299 has already been verified
+[INFO] MinterFilter contract verified on Etherscan at 0x4F575bec47Fdf98728ba24F0AF72b37350897299}
+[INFO] Verifying MinterSetPriceV4 contract deployment...
+The contract 0x63BF0CBf8dCE5AfF557549506C6b344ed4AbD737 has already been verified
+[INFO] MinterSetPriceV4 contract verified on Etherscan at 0x63BF0CBf8dCE5AfF557549506C6b344ed4AbD737}
+[INFO] Verifying MinterDAExpSettlementV1 contract deployment...
+The contract 0xeBb19a4550d33E6D2D833641f497062f43921629 has already been verified
+[INFO] MinterDAExpSettlementV1 contract verified on Etherscan at 0xeBb19a4550d33E6D2D833641f497062f43921629}
+Created s3 bucket for https://artrigs-arbitrum-goerli.s3.amazonaws.com
+[INFO] Created image bucket artrigs-arbitrum-goerli
+[INFO] Deployment details written to /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/DEPLOYMENTS.md
+Upserting 1 contract...
+Contracts metadata upsert input:
+{
+  "address": "0x2ddc5de533509776a705f71c21b60ac07b8949e1",
+  "name": "ArtRigs",
+  "bucket_name": "artrigs-arbitrum-goerli",
+  "default_vertical_name": "flex"
+}
+Successfully upserted 1 contract
+Upserting 1 project...
+Projects metadata upsert input:
+{
+  "id": "0x2ddc5de533509776a705f71c21b60ac07b8949e1-0",
+  "contract_address": "0x2ddc5de533509776a705f71c21b60ac07b8949e1",
+  "project_id": "0",
+  "artist_address": "0x4d5286d81317e284cd377cb98b478552bbe641ae",
+  "vertical_name": "flex"
+}
+Successfully upserted 1 project
+[ACTION] provider primary and secondary sales payment addresses remain as deployer addresses: 0x4D5286d81317E284Cd377cB98b478552Bbe641ae. Update later as needed.
+[ACTION] AdminACL's superAdmin address is 0x4D5286d81317E284Cd377cB98b478552Bbe641ae, don't forget to update if requred.
+----------------------------------------
+[INFO] Datetime of deployment: 2023-07-14T03:33:55.989Z
+[INFO] Deployment configuration file: /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/deployment-config.arbitrum-staging.ts
+[INFO] Deploying to network: arbitrum-goerli
+----------------------------------------
+[INFO] Datetime of deployment: 2023-07-14T03:38:04.373Z
+[INFO] Deployment configuration file: /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/deployment-config.arbitrum-staging.ts
+[INFO] Deploying to network: arbitrum-goerli
+[INFO] Deploying to environment: arbitrum-staging
+[INFO] New Admin ACL AdminACLV1 deployed at address: 0x9bD8b19e7D19D5D883152cb524C60E2496d6F830
+[INFO] Randomizer BasicRandomizerV2 deployed at 0x7A33e8E3438E03AA92c89AE23d8d21737bc5984F
+[INFO] Core GenArt721CoreV3_Engine_Flex deployed at 0x85fBbcA43795A49D850bC5be73beC144970013F2
+[INFO] Minter Filter MinterFilterV1 deployed at 0xf10Ac42e15F0A4B65e01b61E07dA8cB7968A0882
+[INFO] MinterSetPriceV4 deployed at 0xf58874ce784ABb2956f987F05E90ea4EEBb7f150
+[INFO] MinterDAExpSettlementV1 deployed at 0x5dfec53Db40B8A04d7faEc22f9d6cE29f521e947
+[INFO] Assigned randomizer to core and renounced ownership of randomizer
+[INFO] Updated the Minter Filter on the Core contract to 0xf10Ac42e15F0A4B65e01b61E07dA8cB7968A0882.
+[INFO] Allowlisted minter MinterSetPriceV4 at 0xf58874ce784ABb2956f987F05E90ea4EEBb7f150 on minter filter.
+[INFO] Allowlisted minter MinterDAExpSettlementV1 at 0x5dfec53Db40B8A04d7faEc22f9d6cE29f521e947 on minter filter.
+[INFO] Added ArtRigs project 0 placeholder on ArtRigs contract, artist is 0x4D5286d81317E284Cd377cB98b478552Bbe641ae.
+[INFO] Configured set price minter (0xf58874ce784ABb2956f987F05E90ea4EEBb7f150) for project 0.
+[INFO] Configured minter price project 0.
+[INFO] Minted token 0 for project 0.
+[INFO] Skipping transfer of superAdmin role on adminACL.
+[INFO] Verifying core contract contract deployment...
+The contract 0x85fBbcA43795A49D850bC5be73beC144970013F2 has already been verified
+[INFO] Core contract verified on Etherscan at 0x85fBbcA43795A49D850bC5be73beC144970013F2}
+[INFO] Verifying AdminACL contract deployment...
+The contract 0x9bD8b19e7D19D5D883152cb524C60E2496d6F830 has already been verified
+[INFO] AdminACL contract verified on Etherscan at 0x9bD8b19e7D19D5D883152cb524C60E2496d6F830}
+[INFO] Verifying MinterFilter contract deployment...
+The contract 0xf10Ac42e15F0A4B65e01b61E07dA8cB7968A0882 has already been verified
+[INFO] MinterFilter contract verified on Etherscan at 0xf10Ac42e15F0A4B65e01b61E07dA8cB7968A0882}
+[INFO] Verifying MinterSetPriceV4 contract deployment...
+The contract 0xf58874ce784ABb2956f987F05E90ea4EEBb7f150 has already been verified
+[INFO] MinterSetPriceV4 contract verified on Etherscan at 0xf58874ce784ABb2956f987F05E90ea4EEBb7f150}
+[INFO] Verifying MinterDAExpSettlementV1 contract deployment...
+The contract 0x5dfec53Db40B8A04d7faEc22f9d6cE29f521e947 has already been verified
+[INFO] MinterDAExpSettlementV1 contract verified on Etherscan at 0x5dfec53Db40B8A04d7faEc22f9d6cE29f521e947}
+Created s3 bucket for https://artrigs-arbitrum-goerli.s3.amazonaws.com
+----------------------------------------
+[INFO] Datetime of deployment: 2023-07-14T03:44:36.310Z
+[INFO] Deployment configuration file: /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/deployment-config.arbitrum-staging.ts
+[INFO] Deploying to network: arbitrum-goerli
+[INFO] Deploying to environment: arbitrum-staging
+[INFO] New Admin ACL AdminACLV1 deployed at address: 0x1F96C453c353FA0903ec73db50B6768F0d19cdFd
+[INFO] Randomizer BasicRandomizerV2 deployed at 0x1998D908bDb368be0788AEeBf9a91cfE58E9EeBa
+[INFO] Core GenArt721CoreV3_Engine_Flex deployed at 0x6112F84D998143b2990Ab76824738852B6aF3F82
+[INFO] Minter Filter MinterFilterV1 deployed at 0x0A9E752bE7c31f026E3Ddf241FdD4F7f3237ce54
+[INFO] MinterSetPriceV4 deployed at 0x220547A1a35eB4F09e2eF4B7E6CAE0A6ee9B10f8
+[INFO] MinterDAExpSettlementV1 deployed at 0x8acfFFB86a07235CEB2Dc908c5Aed6907dCE93b6
+[INFO] Assigned randomizer to core and renounced ownership of randomizer
+[INFO] Updated the Minter Filter on the Core contract to 0x0A9E752bE7c31f026E3Ddf241FdD4F7f3237ce54.
+[INFO] Allowlisted minter MinterSetPriceV4 at 0x220547A1a35eB4F09e2eF4B7E6CAE0A6ee9B10f8 on minter filter.
+[INFO] Allowlisted minter MinterDAExpSettlementV1 at 0x8acfFFB86a07235CEB2Dc908c5Aed6907dCE93b6 on minter filter.
+[INFO] Added ArtRigs project 0 placeholder on ArtRigs contract, artist is 0x4D5286d81317E284Cd377cB98b478552Bbe641ae.
+[INFO] Configured set price minter (0x220547A1a35eB4F09e2eF4B7E6CAE0A6ee9B10f8) for project 0.
+[INFO] Configured minter price project 0.
+[INFO] Minted token 0 for project 0.
+[INFO] Skipping transfer of superAdmin role on adminACL.
+[INFO] Verifying core contract contract deployment...
+The contract 0x6112F84D998143b2990Ab76824738852B6aF3F82 has already been verified
+[INFO] Core contract verified on Etherscan at 0x6112F84D998143b2990Ab76824738852B6aF3F82}
+[INFO] Verifying AdminACL contract deployment...
+The contract 0x1F96C453c353FA0903ec73db50B6768F0d19cdFd has already been verified
+[INFO] AdminACL contract verified on Etherscan at 0x1F96C453c353FA0903ec73db50B6768F0d19cdFd}
+[INFO] Verifying MinterFilter contract deployment...
+The contract 0x0A9E752bE7c31f026E3Ddf241FdD4F7f3237ce54 has already been verified
+[INFO] MinterFilter contract verified on Etherscan at 0x0A9E752bE7c31f026E3Ddf241FdD4F7f3237ce54}
+[INFO] Verifying MinterSetPriceV4 contract deployment...
+The contract 0x220547A1a35eB4F09e2eF4B7E6CAE0A6ee9B10f8 has already been verified
+[INFO] MinterSetPriceV4 contract verified on Etherscan at 0x220547A1a35eB4F09e2eF4B7E6CAE0A6ee9B10f8}
+[INFO] Verifying MinterDAExpSettlementV1 contract deployment...
+The contract 0x8acfFFB86a07235CEB2Dc908c5Aed6907dCE93b6 has already been verified
+[INFO] MinterDAExpSettlementV1 contract verified on Etherscan at 0x8acfFFB86a07235CEB2Dc908c5Aed6907dCE93b6}
+Created s3 bucket for https://artrigs-arbitrum-goerli.s3.amazonaws.com
+[INFO] Created image bucket artrigs-arbitrum-goerli
+[INFO] Deployment details written to /Users/dtb/Desktop/arigs/packages/contracts/deployments/engine/V3/partners/tableland/DEPLOYMENTS.md
+Upserting 1 contract...
+Contracts metadata upsert input:
+{
+  "address": "0x6112f84d998143b2990ab76824738852b6af3f82",
+  "name": "ArtRigs",
+  "bucket_name": "artrigs-arbitrum-goerli",
+  "default_vertical_name": "flex"
+}
+Successfully upserted 1 contract
+Upserting 1 project...
+Projects metadata upsert input:
+{
+  "id": "0x6112f84d998143b2990ab76824738852b6af3f82-0",
+  "contract_address": "0x6112f84d998143b2990ab76824738852b6af3f82",
+  "project_id": "0",
+  "artist_address": "0x4d5286d81317e284cd377cb98b478552bbe641ae",
+  "vertical_name": "flex"
+}
+Successfully upserted 1 project
+[ACTION] provider primary and secondary sales payment addresses remain as deployer addresses: 0x4D5286d81317E284Cd377cB98b478552Bbe641ae. Update later as needed.
+[ACTION] AdminACL's superAdmin address is 0x4D5286d81317E284Cd377cB98b478552Bbe641ae, don't forget to update if requred.
